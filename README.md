@@ -1,4 +1,4 @@
-# PhD Thesis - Paper 01 (codes and data)
+# PhD Thesis - Paper 01 (codes, data and main results)
 The repository contains codes, data an main results of the upcomming paper entitle "Collaborative Toponyms in OpenStreetMap: an open-source framework to investigate the relationship with Intrinsic Quality Parameters"
 
 
