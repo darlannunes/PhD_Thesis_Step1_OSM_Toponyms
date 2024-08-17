@@ -1,5 +1,24 @@
-# PhD Thesis - Paper 01 (codes, data and main results)
-The repository contains codes, data an main results of the upcomming paper entitle "Collaborative Toponyms in OpenStreetMap: an open-source framework to investigate the relationship with Intrinsic Quality Parameters"
+# Collaborative Toponyms in OpenStreetMap: an open-source framework to investigate the relationship with Intrinsic Quality Parameters
 
+Flowchart illustrating the full process of the proposed pen-source framework.
+![open-source framework for Collaborative Toponyms in OSM](https://github.com/in1311/DKNN/assets/140888660/0b1f8538-f751-43f3-85f8-cc72dd7decd2)
 
-**Abstract:** *Toponyms play a crucial role in providing spatial identities, as they characterize and give meaning and relevance to the named geographical features. Collaborative mapping platforms like OpenStreetMap (OSM) have led to a significant increase in collaboratively gathered place names. OSM datasets offer a promising source to complement and update authoritative products, such as toponyms databases and gazetteers, benefiting from the dynamic nature of data updates and the local knowledge of contributors providing information. However, updating authoritative databases from collaborative data requires careful consideration and knowledge of the quality. Furthermore, there remains a limited number of studies that have explored the use of OSM toponyms in authoritative mapping efforts. Therefore, this study proposes an open-source tool for retrieving toponym data from the OSM editing history. It also developed a comprehensive set of analyses to investigate the spatial patterns contributions related to the existing toponyms, and the relation to intrinsic quality parameters. The results shown the tool's effectiveness for quantifying and examine the spatial contribution patterns of the OSM toponyms. Moreover, spatial clustering and geographically weighted regression analyses were carried out to better explain the proportion of existing toponyms based on observed numbers of edits and collaborations in OSM.*
+# Requirements
+* numpy
+* datetime
+* os
+* pandas
+* torch
+* tensorboard
+* sklearn
+* matplotlib
+* math
+* tqdm
+
+**Jupyter notebooks**
+*DSc_Step1_code1_OsmEditHistory_GridCells_v2.ipynb*
+*DSc_Step1_code2_Analysis_v2.ipynb*
+
+These jupyter notebooks files, encompasses code blocks for data loading, preprocessing, providing a comprehensive running example.
+
+Please note that we tested the code on Google Colaboratory.
