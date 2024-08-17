@@ -13,6 +13,7 @@ Flowchart illustrating the full process of the proposed open-source framework.
 * json
 * folium
 * shapely
+* pyproj
 * matplotlib
 * seaborn
 * mmapclassify
