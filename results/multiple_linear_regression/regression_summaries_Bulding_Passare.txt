@@ -1,0 +1,166 @@
+Model: building_name_ratio ~ building_total_contributions + building_name_contributions + building_latest5_name_contributions + building_name_tagChange_contributions + building_users_count_name
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     building_name_ratio   R-squared:                       0.223
+Model:                             OLS   Adj. R-squared:                  0.205
+Method:                  Least Squares   F-statistic:                     12.26
+Date:                 Fri, 05 Apr 2024   Prob (F-statistic):           1.84e-10
+Time:                         02:16:28   Log-Likelihood:                -457.71
+No. Observations:                  220   AIC:                             927.4
+Df Residuals:                      214   BIC:                             947.8
+Df Model:                            5                                         
+Covariance Type:             nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                     0.2404      0.218      1.100      0.272      -0.190       0.671
+building_total_contributions             -0.0012      0.001     -1.266      0.207      -0.003       0.001
+building_name_contributions              -0.7685      0.225     -3.419      0.001      -1.211      -0.325
+building_latest5_name_contributions       1.3251      0.340      3.896      0.000       0.655       1.995
+building_name_tagChange_contributions     0.9676      0.308      3.146      0.002       0.361       1.574
+building_users_count_name                 0.6777      0.227      2.987      0.003       0.230       1.125
+==============================================================================
+Omnibus:                      378.410   Durbin-Watson:                   1.967
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            92713.184
+Skew:                           8.814   Prob(JB):                         0.00
+Kurtosis:                     102.012   Cond. No.                         662.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: building_name_ratio ~ building_total_contributions
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     building_name_ratio   R-squared:                       0.017
+Model:                             OLS   Adj. R-squared:                  0.013
+Method:                  Least Squares   F-statistic:                     3.813
+Date:                 Fri, 05 Apr 2024   Prob (F-statistic):             0.0521
+Time:                         02:16:32   Log-Likelihood:                -483.51
+No. Observations:                  220   AIC:                             971.0
+Df Residuals:                      218   BIC:                             977.8
+Df Model:                            1                                         
+Covariance Type:             nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+const                            0.7754      0.222      3.499      0.001       0.339       1.212
+building_total_contributions    -0.0021      0.001     -1.953      0.052      -0.004    1.94e-05
+==============================================================================
+Omnibus:                      347.809   Durbin-Watson:                   1.847
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            50920.449
+Skew:                           7.692   Prob(JB):                         0.00
+Kurtosis:                      75.927   Cond. No.                         311.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: building_name_ratio ~ building_name_contributions
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     building_name_ratio   R-squared:                       0.120
+Model:                             OLS   Adj. R-squared:                  0.116
+Method:                  Least Squares   F-statistic:                     29.71
+Date:                 Fri, 05 Apr 2024   Prob (F-statistic):           1.35e-07
+Time:                         02:16:35   Log-Likelihood:                -471.37
+No. Observations:                  220   AIC:                             946.7
+Df Residuals:                      218   BIC:                             953.5
+Df Model:                            1                                         
+Covariance Type:             nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           0.1555      0.150      1.037      0.301      -0.140       0.451
+building_name_contributions     0.3301      0.061      5.451      0.000       0.211       0.449
+==============================================================================
+Omnibus:                      371.657   Durbin-Watson:                   2.007
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            80343.305
+Skew:                           8.562   Prob(JB):                         0.00
+Kurtosis:                      95.041   Cond. No.                         2.72
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: building_name_ratio ~ building_name_tagChange_contributions
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     building_name_ratio   R-squared:                       0.138
+Model:                             OLS   Adj. R-squared:                  0.134
+Method:                  Least Squares   F-statistic:                     34.93
+Date:                 Fri, 05 Apr 2024   Prob (F-statistic):           1.30e-08
+Time:                         02:16:40   Log-Likelihood:                -469.07
+No. Observations:                  220   AIC:                             942.1
+Df Residuals:                      218   BIC:                             948.9
+Df Model:                            1                                         
+Covariance Type:             nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                     0.2220      0.144      1.546      0.124      -0.061       0.505
+building_name_tagChange_contributions     0.9571      0.162      5.910      0.000       0.638       1.276
+==============================================================================
+Omnibus:                      382.811   Durbin-Watson:                   1.974
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            94096.126
+Skew:                           9.031   Prob(JB):                         0.00
+Kurtosis:                     102.693   Cond. No.                         1.36
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: building_name_ratio ~ building_users_count_name
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     building_name_ratio   R-squared:                       0.146
+Model:                             OLS   Adj. R-squared:                  0.142
+Method:                  Least Squares   F-statistic:                     37.37
+Date:                 Fri, 05 Apr 2024   Prob (F-statistic):           4.46e-09
+Time:                         02:16:44   Log-Likelihood:                -468.02
+No. Observations:                  220   AIC:                             940.0
+Df Residuals:                      218   BIC:                             946.8
+Df Model:                            1                                         
+Covariance Type:             nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                         0.0937      0.150      0.626      0.532      -0.201       0.388
+building_users_count_name     0.5522      0.090      6.113      0.000       0.374       0.730
+==============================================================================
+Omnibus:                      371.438   Durbin-Watson:                   2.034
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            84213.820
+Skew:                           8.521   Prob(JB):                         0.00
+Kurtosis:                      97.321   Cond. No.                         1.94
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: building_name_ratio ~ building_latest5_name_contributions
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     building_name_ratio   R-squared:                       0.131
+Model:                             OLS   Adj. R-squared:                  0.127
+Method:                  Least Squares   F-statistic:                     32.80
+Date:                 Fri, 05 Apr 2024   Prob (F-statistic):           3.37e-08
+Time:                         02:17:42   Log-Likelihood:                -470.01
+No. Observations:                  220   AIC:                             944.0
+Df Residuals:                      218   BIC:                             950.8
+Df Model:                            1                                         
+Covariance Type:             nonrobust                                         
+=======================================================================================================
+                                          coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------
+const                                   0.1330      0.150      0.889      0.375      -0.162       0.428
+building_latest5_name_contributions     1.0045      0.175      5.727      0.000       0.659       1.350
+==============================================================================
+Omnibus:                      365.675   Durbin-Watson:                   1.921
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            70067.643
+Skew:                           8.351   Prob(JB):                         0.00
+Kurtosis:                      88.818   Cond. No.                         1.53
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+

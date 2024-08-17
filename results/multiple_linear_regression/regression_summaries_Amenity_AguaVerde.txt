@@ -1,0 +1,166 @@
+Model: amenity_name_ratio ~ amenity_total_contributions + amenity_name_contributions + amenity_latest5_name_contributions + amenity_name_tagChange_contributions + amenity_users_count_name
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     amenity_name_ratio   R-squared:                       0.374
+Model:                            OLS   Adj. R-squared:                  0.353
+Method:                 Least Squares   F-statistic:                     17.72
+Date:                Fri, 05 Apr 2024   Prob (F-statistic):           9.70e-14
+Time:                        15:14:29   Log-Likelihood:                -757.66
+No. Observations:                 154   AIC:                             1527.
+Df Residuals:                     148   BIC:                             1546.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                   32.1162      4.048      7.934      0.000      24.117      40.116
+amenity_total_contributions             -3.1762      1.490     -2.131      0.035      -6.121      -0.231
+amenity_name_contributions               1.0620      1.751      0.607      0.545      -2.398       4.522
+amenity_latest5_name_contributions       7.9672      2.020      3.943      0.000       3.975      11.960
+amenity_name_tagChange_contributions    -0.9137      2.153     -0.424      0.672      -5.169       3.341
+amenity_users_count_name                 9.1726      1.834      5.002      0.000       5.549      12.796
+==============================================================================
+Omnibus:                       12.944   Durbin-Watson:                   1.803
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):                6.227
+Skew:                           0.275   Prob(JB):                       0.0444
+Kurtosis:                       2.182   Cond. No.                         25.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: amenity_name_ratio ~ amenity_total_contributions
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     amenity_name_ratio   R-squared:                       0.158
+Model:                            OLS   Adj. R-squared:                  0.152
+Method:                 Least Squares   F-statistic:                     28.45
+Date:                Fri, 05 Apr 2024   Prob (F-statistic):           3.42e-07
+Time:                        15:14:39   Log-Likelihood:                -780.58
+No. Observations:                 154   AIC:                             1565.
+Df Residuals:                     152   BIC:                             1571.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          43.7269      3.997     10.939      0.000      35.829      51.624
+amenity_total_contributions     1.8022      0.338      5.334      0.000       1.135       2.470
+==============================================================================
+Omnibus:                     1469.999   Durbin-Watson:                   1.812
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               14.547
+Skew:                          -0.017   Prob(JB):                     0.000694
+Kurtosis:                       1.495   Cond. No.                         15.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: amenity_name_ratio ~ amenity_name_contributions
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     amenity_name_ratio   R-squared:                       0.180
+Model:                            OLS   Adj. R-squared:                  0.175
+Method:                 Least Squares   F-statistic:                     33.39
+Date:                Fri, 05 Apr 2024   Prob (F-statistic):           4.14e-08
+Time:                        15:14:44   Log-Likelihood:                -778.50
+No. Observations:                 154   AIC:                             1561.
+Df Residuals:                     152   BIC:                             1567.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+const                         43.7834      3.841     11.400      0.000      36.195      51.372
+amenity_name_contributions     2.1270      0.368      5.778      0.000       1.400       2.854
+==============================================================================
+Omnibus:                      510.768   Durbin-Watson:                   1.794
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               13.778
+Skew:                          -0.051   Prob(JB):                      0.00102
+Kurtosis:                       1.538   Cond. No.                         13.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: amenity_name_ratio ~ amenity_name_tagChange_contributions
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     amenity_name_ratio   R-squared:                       0.168
+Model:                            OLS   Adj. R-squared:                  0.163
+Method:                 Least Squares   F-statistic:                     30.80
+Date:                Fri, 05 Apr 2024   Prob (F-statistic):           1.24e-07
+Time:                        15:14:48   Log-Likelihood:                -779.58
+No. Observations:                 154   AIC:                             1563.
+Df Residuals:                     152   BIC:                             1569.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                   45.5199      3.732     12.196      0.000      38.146      52.894
+amenity_name_tagChange_contributions     7.9669      1.436      5.550      0.000       5.131      10.803
+==============================================================================
+Omnibus:                     5036.475   Durbin-Watson:                   1.884
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               15.235
+Skew:                           0.009   Prob(JB):                     0.000492
+Kurtosis:                       1.459   Cond. No.                         3.29
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: amenity_name_ratio ~ amenity_latest5_name_contributions
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     amenity_name_ratio   R-squared:                       0.235
+Model:                            OLS   Adj. R-squared:                  0.230
+Method:                 Least Squares   F-statistic:                     46.57
+Date:                Fri, 05 Apr 2024   Prob (F-statistic):           1.97e-10
+Time:                        15:14:54   Log-Likelihood:                -773.21
+No. Observations:                 154   AIC:                             1550.
+Df Residuals:                     152   BIC:                             1556.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+const                                 41.3405      3.761     10.991      0.000      33.909      48.772
+amenity_latest5_name_contributions     9.9599      1.459      6.825      0.000       7.077      12.843
+==============================================================================
+Omnibus:                       82.076   Durbin-Watson:                   1.910
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.124
+Skew:                           0.076   Prob(JB):                      0.00633
+Kurtosis:                       1.753   Cond. No.                         3.46
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model: amenity_name_ratio ~ amenity_users_count_name
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     amenity_name_ratio   R-squared:                       0.286
+Model:                            OLS   Adj. R-squared:                  0.281
+Method:                 Least Squares   F-statistic:                     60.80
+Date:                Fri, 05 Apr 2024   Prob (F-statistic):           9.33e-13
+Time:                        15:15:01   Log-Likelihood:                -767.88
+No. Observations:                 154   AIC:                             1540.
+Df Residuals:                     152   BIC:                             1546.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                       34.9069      4.040      8.640      0.000      26.925      42.889
+amenity_users_count_name     6.6492      0.853      7.797      0.000       4.964       8.334
+==============================================================================
+Omnibus:                       65.121   Durbin-Watson:                   1.734
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.773
+Skew:                           0.137   Prob(JB):                      0.00755
+Kurtosis:                       1.797   Cond. No.                         6.81
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
