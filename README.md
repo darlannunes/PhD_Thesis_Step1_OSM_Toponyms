@@ -5,15 +5,24 @@ Flowchart illustrating the full process of the proposed open-source framework.
 
 # Requirements
 * numpy
-* datetime
+* time
 * os
 * pandas
-* torch
-* tensorboard
-* sklearn
+* geopandas
+* requests
+* json
+* folium
+* shapely
 * matplotlib
-* math
+* seaborn
+* mmapclassify
+* statsmodels
+* pysal
+* mgwr
 * tqdm
+* sklearn
+* ipywidgets
+
 
 # Jupyter notebooks
 * DSc_Step1_code1_OsmEditHistory_GridCells_v2.ipynb*
