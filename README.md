@@ -16,8 +16,8 @@ Flowchart illustrating the full process of the proposed open-source framework.
 * tqdm
 
 # Jupyter notebooks
-*DSc_Step1_code1_OsmEditHistory_GridCells_v2.ipynb*
-*DSc_Step1_code2_Analysis_v2.ipynb*
+* DSc_Step1_code1_OsmEditHistory_GridCells_v2.ipynb*
+* DSc_Step1_code2_Analysis_v2.ipynb*
 
 These jupyter notebooks files, encompasses code blocks for data loading, preprocessing and analysis, providing a comprehensive running example.
 
