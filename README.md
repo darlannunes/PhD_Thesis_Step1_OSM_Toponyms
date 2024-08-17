@@ -26,9 +26,9 @@ Flowchart illustrating the full process of the proposed open-source framework.
 
 
 # Jupyter notebooks
-* DSc_Step1_code1_OsmEditHistory_GridCells_v2.ipynb*
-* DSc_Step1_code2_Analysis_v2.ipynb*
+* *JN1_OsmEditHist_OHSOME_Grid.ipynb*
+* *JN2_OsmToponyms_Analysis.ipynb*
 
 These jupyter notebooks files, encompasses code blocks for data loading, preprocessing and analysis, providing a comprehensive running example.
 
-* Please note that we tested the code on Google Colaboratory.
+* Please note that we have tested the codes in the Google Colaboratory environment.
