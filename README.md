@@ -3,6 +3,12 @@
 Flowchart illustrating the full process of the proposed open-source framework.
 ![open-source framework for Collaborative Toponyms in OSM](utils/flowchart_paper_v2.png)
 
+# Jupyter notebooks
+* ../notebooks/*JN1_OsmEditHist_OHSOME_Grid.ipynb*
+* ../notebooks/*JN2_OsmToponyms_Analysis.ipynb*
+
+ * These jupyter notebooks files, encompasses code blocks for data loading, preprocessing and analysis, providing a comprehensive running example.
+
 # Requirements
 * numpy
 * time
@@ -24,11 +30,6 @@ Flowchart illustrating the full process of the proposed open-source framework.
 * sklearn
 * ipywidgets
 
-
-# Jupyter notebooks
-* *JN1_OsmEditHist_OHSOME_Grid.ipynb*
-* *JN2_OsmToponyms_Analysis.ipynb*
-
-These jupyter notebooks files, encompasses code blocks for data loading, preprocessing and analysis, providing a comprehensive running example.
+# Observations
 
 * Please note that we have tested the codes in the Google Colaboratory environment.
