@@ -4,8 +4,8 @@ Model: leisure_name_ratio ~ leisure_name_contributions + leisure_latest5_name_co
 Dep. Variable:     leisure_name_ratio   R-squared:                       0.528
 Model:                            OLS   Adj. R-squared:                  0.516
 Method:                 Least Squares   F-statistic:                     41.74
-Date:                Mon, 07 Apr 2025   Prob (F-statistic):           1.92e-23
-Time:                        08:58:53   Log-Likelihood:                -734.93
+Date:                Wed, 09 Apr 2025   Prob (F-statistic):           1.92e-23
+Time:                        12:26:13   Log-Likelihood:                -734.93
 No. Observations:                 154   AIC:                             1480.
 Df Residuals:                     149   BIC:                             1495.
 Df Model:                           4                                         

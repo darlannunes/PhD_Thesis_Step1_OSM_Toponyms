@@ -1,41 +1,11 @@
-Model: leisure_name_ratio ~ leisure_name_contributions + leisure_latest5_name_contributions + leisure_name_tagChange_contributions + leisure_users_count_name
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:     leisure_name_ratio   R-squared:                       0.528
-Model:                            OLS   Adj. R-squared:                  0.516
-Method:                 Least Squares   F-statistic:                     41.74
-Date:                Mon, 07 Apr 2025   Prob (F-statistic):           1.92e-23
-Time:                        08:58:53   Log-Likelihood:                -734.93
-No. Observations:                 154   AIC:                             1480.
-Df Residuals:                     149   BIC:                             1495.
-Df Model:                           4                                         
-Covariance Type:            nonrobust                                         
-========================================================================================================
-                                           coef    std err          t      P>|t|      [0.025      0.975]
---------------------------------------------------------------------------------------------------------
-const                                    7.7385      2.894      2.674      0.008       2.019      13.458
-leisure_name_contributions              -5.9250      1.253     -4.730      0.000      -8.400      -3.450
-leisure_latest5_name_contributions      33.2318      4.126      8.055      0.000      25.079      41.384
-leisure_name_tagChange_contributions     4.9051      3.643      1.346      0.180      -2.294      12.104
-leisure_users_count_name                 9.5214      2.148      4.433      0.000       5.277      13.766
-==============================================================================
-Omnibus:                       16.568   Durbin-Watson:                   1.702
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               44.260
-Skew:                           0.335   Prob(JB):                     2.45e-10
-Kurtosis:                       5.539   Cond. No.                         20.7
-==============================================================================
-
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
 Model: building_name_ratio ~ building_name_contributions + building_latest5_name_contributions + building_name_tagChange_contributions + building_users_count_name
                              OLS Regression Results                            
 ===============================================================================
 Dep. Variable:     building_name_ratio   R-squared:                       0.084
 Model:                             OLS   Adj. R-squared:                  0.060
 Method:                  Least Squares   F-statistic:                     3.428
-Date:                 Mon, 07 Apr 2025   Prob (F-statistic):             0.0103
-Time:                         09:01:18   Log-Likelihood:                -730.51
+Date:                 Wed, 09 Apr 2025   Prob (F-statistic):             0.0103
+Time:                         12:27:58   Log-Likelihood:                -730.51
 No. Observations:                  154   AIC:                             1471.
 Df Residuals:                      149   BIC:                             1486.
 Df Model:                            4                                         
